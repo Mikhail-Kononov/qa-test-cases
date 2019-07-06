@@ -1,0 +1,16 @@
+﻿procedure TestCase2;
+begin
+  TestedApps.TestEnvironment_TD32.Run;
+  Aliases.TestEnvironment_TD32_.FMain.Maximize;
+  Aliases.TestEnvironment_TD32_.FMain.dxRibbon.ClickItemXY('dxRibbonTab1|[0]|Форма с TreeList', 82, 23);
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[1].Collapse(2);
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.Collapse(1);
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.MouseWheel(-3);
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[3].wChildView[2].ClickCell(1, 'name');
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit2.TcxCustomInnerTextEdit.Keys('58[Enter]');
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.Expand(1);
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[1].Expand(2);
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[1].wChildView[2].ClickCell(0, 'name');
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit.TcxCustomInnerTextEdit.Keys('[Del][Enter]');
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.Click(141, 854);
+end;

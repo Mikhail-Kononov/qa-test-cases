@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{F497501E-79F8-4E20-8D65-AD4C853F80D6}">
+	<children>
+		<child name="Mikhail_Kononov" key="{25722291-F5E3-4344-A083-66208E68431B}" path="Mikhail_Kononov.mds" />
+	</children>
+	<testItems key="{3A6B77E1-18FB-4519-91E7-2DB0978CD670}">
+		<children>
+			<testItem key="{25722291-F5E3-4344-A083-66208E68431B}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{E9A94826-2BEC-4ABB-ADB9-6272C5659F35}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{DD3AD766-30BD-40C7-9852-966B0375A86D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>
